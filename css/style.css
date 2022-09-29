@@ -1,18 +1,12 @@
-/* .navbar{
-    display: flex;
-    grid-template-columns: repeat(9,1fr);
-}
-.navbar a{
-    text-decoration: none;
-} */
 body{
     top: 0;
+    font: DM sans;
 }
 
 .navbar{
     display: grid;
     
-    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 2fr 2fr 0.5fr 0.5fr ;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 2fr 2fr 0.5fr 0.5fr 0.5fr;
     height: 80px;
      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
@@ -30,3 +24,227 @@ body{
     margin-bottom: 29px;
 
 }
+.badge{
+    display:grid; 
+    grid-template-columns: 11fr 0.5fr;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ab{
+    display: flex;
+    justify-content: center;
+    
+}
+.crossSign{
+    height: 17px;
+    width: 17px;
+    display: flex;
+}
+.banner{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+.leftBanner{
+   
+width: 672px;
+height: 797px;
+
+}
+.rightBanner{
+    width: 572px;
+    height: 797px;
+}
+.container {
+    position: relative;
+    text-align: center;
+   
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    left: 33%;
+    right: 50%;
+    top: 36.6%;
+    bottom: 62.99%;
+    font-size: 70px;
+
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    left: 20%;
+    right: 10.21%;
+    top: 48%;
+    bottom: 47.18%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 60px;
+
+    color: #565656;
+
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    left: 22%;
+    right: 14.69%;
+    top: 55%;
+    bottom: 36.89%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    color: #565656;
+    
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    left: 30.51%;
+    right: 22.09%;
+    top: 65.75%;
+    bottom: 18.75%;
+   
+    color: #272727;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+  }
+  .treanding{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+  }
+  .trendName{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #272727;
+  }
+  .brandName{
+    margin-top: -30px;
+    padding-left: 5px;
+    display: grid;
+    grid-template-columns: 0.3fr 0.1fr 0.1fr;
+    
+    align-items: center;
+  }
+  .singleTrendCart{
+    width: 410px;
+    height: 423px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+  }
+  .levisImg{
+    padding-left: 100px;
+    padding-top: 5px;
+  }
+  .offer{
+    margin-top: -30px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .deals{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .dealsDescription{
+    display: grid;
+    justify-content: center;
+  }
+
+
+  .container2 {
+    position: relative;
+    text-align: center;
+   
+  }
+  
+  /* Bottom left text */
+  .bottom-left2 {
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    
+    bottom: 62.99%;
+    font-size: 70px;
+    color: white;
+
+  }
+  
+  /* Top left text */
+  .top-left2 {
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 40%;
+   
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 60px;
+
+    color: white;
+
+  }
+  
+  /* Top right text */
+  .top-right2 {
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 50%;
+    
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 60px;
+    color: white
+    
+  }
+  
+  /* Bottom right text */
+  .bottom-right2 {
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 65%;
+    bottom: 18.75%;
+   
+    color: #272727;
+  }
+  
+  .review{
+    width: 410px;
+    height: 423px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+  }
+  .reviewImg{
+    display: block;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    
+  }
+  .reviewRating{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;
+   padding-top:15px;
+   padding-left: 140px;
+  }
+  
