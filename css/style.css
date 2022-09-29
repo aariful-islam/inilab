@@ -247,4 +247,9 @@ height: 797px;
    padding-top:15px;
    padding-left: 140px;
   }
-  
+  .footer{
+    height: 410px;
+    padding: 20px;
+    left: 0px;
+    background: #00071B;
+  }
